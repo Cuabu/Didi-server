@@ -1,0 +1,38 @@
+# Construir la imagen
+docker build -t mi-aplicacion .
+
+# Correr el contenedor
+docker run -d -p 8080:80 --name app-container mi-aplicacion
+
+
+
+Construye la imagen:
+
+docker build -t mi-aplicacion .
+
+
+Corre el contenedor:
+
+docker run -d -p 8080:80 --name app-container mi-aplicacion 
+
+🚀 Cómo usar
+
+Construir la imagen:
+
+docker build -t didi-server .
+
+
+Correr el contenedor pasando tu token de GitHub:
+
+docker run -d -p 8080:80 \
+  -e GITHUB_TOKEN=ghp_xxxxxxxxTuTokenAqui \
+  didi-server
+
+
+👉 Con esto:
+
+Si el repo se actualizó en las últimas 24h → Apache inicia y tu app corre.
+
+Si no hay commits recientes → El contenedor se apaga con error.
+
+¿Quieres que lo adapte para que en vez de apagar el contenedor, Apache muestre una página HTML de bloqueo (ej. “App deshabilitada, actualice el repo”)?
