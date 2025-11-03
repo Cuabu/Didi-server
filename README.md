@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # didieco
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Didi-server
+calculos en didi app
+>>>>>>> 413813023491d77a15e0f2f5619f560081b30feb
